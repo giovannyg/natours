@@ -1,0 +1,20 @@
+/* 
+  Applies for every single element in the document
+*/
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+/*Reducing default root font size to 62.5% (tipically 16px, set by user agent(browser)) */
+html {
+  //This defines how much pixels there are in 1 rem
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+}
